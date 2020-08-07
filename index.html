@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Predict Something-Launchpad</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <link rel = "icon" href =  
+"https://raw.githubusercontent.com/philsaurabh/SaurabhWebResume/master/img/favicon.ico" 
+        type = "image/x-icon"> 
+        <style>
+          .blinking{
+          animation:blinkingText 1.5s infinite;
+      }
+      @keyframes blinkingText{
+          0%{     color:rgb(11, 5, 34);    }
+          49%{    color:rgba(90, 76, 76, 0.808); }
+          60%{    color: transparent; }
+          99%{    color:transparent;  }
+          100%{   color: rgb(22, 18, 18);    }
+      }
+      </style>
+</head>
+<body>
+
+  <div class="jumbotron text-center" style="margin-bottom:0;margin-top:30px">
+    <h1 class="blinking">Predict Something!</h1>
+    <marquee behavior="alternate">
+      <div class="spinner-border text-muted"><div class="spinner-border text-success"><div class="spinner-border text-dark"></div></div></div>
+      <div class="spinner-border text-primary"><div class="spinner-border text-light"><div class="spinner-border text-info"></div></div></div>
+      <div class="spinner-border text-warning"><div class="spinner-border text-danger"><div class="spinner-border text-secondary"></div></div></div>
+      <span class="badge badge-warning">***</span>An effort to deploy machine learning projects!<span class="badge badge-warning">***</span>
+      <div class="spinner-border text-warning"><div class="spinner-border text-danger"><div class="spinner-border text-secondary"></div></div></div>
+    <div class="spinner-border text-primary"><div class="spinner-border text-light"><div class="spinner-border text-info"></div></div></div>
+    <div class="spinner-border text-muted"><div class="spinner-border text-success"><div class="spinner-border text-dark"></div></div></div>
+  </marquee>                   
+  </div>
+  
+ <div class= "container-fluid">
+  <a href="https://predictsomethingwebapp.herokuapp.com/"><h1>Click here to launch the app.</h1></a>
+
+  </div>
+
+
+  <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+    <div class="container text-center">
+      <small>Copyright &copy; 2020 created by philsaurabh</small>
+    </div>
+  </footer>
+
+</body>
+</html>
