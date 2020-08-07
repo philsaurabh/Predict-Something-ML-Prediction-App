@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Predict Something- Diabetes</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <link rel = "icon" href =  
+"https://raw.githubusercontent.com/philsaurabh/SaurabhWebResume/master/img/favicon.ico" 
+        type = "image/x-icon"> 
+        <style>
+          .blinking{
+          animation:blinkingText 2.5s infinite;
+      }
+      @keyframes blinkingText{
+          0%{     color:rgb(11, 5, 34);    }
+          49%{    color:rgba(90, 76, 76, 0.808); }
+          60%{    color: transparent; }
+          99%{    color:transparent;  }
+          100%{   color: rgb(22, 18, 18);    }
+      }
+      </style>
+</head>
+<body>
+
+  <div class="jumbotron text-center" style="margin-bottom:0;margin-top:30px">
+    <h1 class="blinking">Predict Something!</h1>
+    <marquee behavior="alternate">
+      <div class="spinner-border text-muted"><div class="spinner-border text-success"><div class="spinner-border text-dark"></div></div></div>
+      <div class="spinner-border text-primary"><div class="spinner-border text-light"><div class="spinner-border text-info"></div></div></div>
+      <div class="spinner-border text-warning"><div class="spinner-border text-danger"><div class="spinner-border text-secondary"></div></div></div>
+      <span class="badge badge-info">***</span> Please give values in the same datatypes as given in examples, Otherwise the app will not work!
+      <span class="badge badge-info">***</span>
+       <div class="spinner-border text-warning"><div class="spinner-border text-danger"><div class="spinner-border text-secondary"></div></div></div>
+    <div class="spinner-border text-primary"><div class="spinner-border text-light"><div class="spinner-border text-info"></div></div></div>
+    <div class="spinner-border text-muted"><div class="spinner-border text-success"><div class="spinner-border text-dark"></div></div></div>
+  </marquee>                   
+  </div>
+  
+   <header class="site-header">
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <a class="navbar-brand" href="/">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="/forest">Forest fire</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/iris">Iris</a>
+            </li>  
+            <li class="nav-item">
+              <a class="nav-link" href="/emotions">Emotions</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link" href="/cancer">Cancer</a>
+            </li>    
+            <li class="nav-item">
+              <a class="nav-link" href="/diabetes">Diabetes</a>
+            </li>    
+            <li class="nav-item">
+              <a class="nav-link" href="/heart">Heart</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about">Contact</a>
+            </li>    
+          </ul>
+        </div>  
+      </nav>
+</header>
+<div class="container",class="form-group">
+        <h2>Details of the situation of forest: </h2>
+    <h3>Enter the Following parameters :</h3>
+  <form action="/predict" method="POST">
+    <table class="table table-striped  table-hover table-bordered">
+        <thead>
+          <tr>
+            <th>Parameters</th>
+            <th>Values</th>
+            <th>Examples</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td for="first_name">Temperature  </td>
+            <td><input placeholder="Temperature in Celsius" name="Temperature" id="first_name" type="text" class="validate"></td>
+            <td>Should be an integer,e.g., 1,3 etc.</td>
+          </tr>      
+          <tr>
+            <td  for="last_name">Oxygen </td>
+            <td>  <input id="last_name" name="Oxygen" placeholder="Oxygen content in ppm"  type="text" class="validate"></td>
+            <td>Should be an integer,e.g., 78,148 etc.</td>
+          </tr>
+          <tr>
+            <td for="_name">Humidity  </td>
+            <td>
+              <input id="_name" name="Humidity" placeholder="Humidity %" type="text" class="validate"></td>
+            <td>Should be an integer,e.g., 72,110 etc.</td>
+          </tr>
+          
+        </tbody>
+      </table>
+    
+     <button class="btn btn-success" type="submit">Submit</button>
+</form>
+</div>
+
+
+
+<footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+  <div class="container text-center">
+    <small>Copyright &copy; 2020 created by philsaurabh</small>
+  </div>
+</footer>
+
+</body>
+</html>

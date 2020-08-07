@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Predict Something- Heart</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <link rel = "icon" href =  
+"https://raw.githubusercontent.com/philsaurabh/SaurabhWebResume/master/img/favicon.ico" 
+        type = "image/x-icon"> 
+        <style>
+          .blinking{
+          animation:blinkingText 2.5s infinite;
+      }
+      @keyframes blinkingText{
+          0%{     color:rgb(11, 5, 34);    }
+          49%{    color:rgba(90, 76, 76, 0.808); }
+          60%{    color: transparent; }
+          99%{    color:transparent;  }
+          100%{   color: rgb(22, 18, 18);    }
+      }
+      </style>
+</head>
+<body>
+
+<div class="jumbotron text-center" style="margin-bottom:0;margin-top:30px">
+  <h1 class="blinking">Predict Something!</h1>
+  <marquee behavior="alternate">
+    <div class="spinner-border text-muted"><div class="spinner-border text-success"><div class="spinner-border text-dark"></div></div></div>
+    <div class="spinner-border text-primary"><div class="spinner-border text-light"><div class="spinner-border text-info"></div></div></div>
+    <div class="spinner-border text-warning"><div class="spinner-border text-danger"><div class="spinner-border text-secondary"></div></div></div>
+    <span class="badge badge-info">***</span> Please give values in the same datatypes as given in examples, Otherwise the app will not work!
+    <span class="badge badge-info">***</span>
+    <div class="spinner-border text-warning"><div class="spinner-border text-danger"><div class="spinner-border text-secondary"></div></div></div>
+  <div class="spinner-border text-primary"><div class="spinner-border text-light"><div class="spinner-border text-info"></div></div></div>
+  <div class="spinner-border text-muted"><div class="spinner-border text-success"><div class="spinner-border text-dark"></div></div></div>
+</marquee>                   
+</div>
+   <header class="site-header">
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <a class="navbar-brand" href="/">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/forest">Forest fire</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/iris">Iris</a>
+            </li>  
+            <li class="nav-item">
+              <a class="nav-link" href="/emotions">Emotions</a>
+            </li>  
+            <li class="nav-item">
+              <a class="nav-link" href="/cancer">Cancer</a>
+            </li>    
+            <li class="nav-item">
+              <a class="nav-link" href="/diabetes">Diabetes</a>
+            </li>    
+            <li class="nav-item">
+              <a class="nav-link active" href="/heart">Heart</a>
+            </li>  
+            <li class="nav-item">
+              <a class="nav-link" href="/about">Contact</a>
+            </li>
+          </ul>
+        </div>  
+      </nav>
+</header>
+<div class="container",class="form-group">
+        <h2>Details from report: </h2>
+    <h3>Enter the Following parameters :</h3>
+  <form action="/result" method="POST">
+    <table class="table table-striped  table-hover table-bordered">
+      <thead>
+        <tr>
+          <th>Parameters</th>
+          <th>Values</th>
+          <th>Examples</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td for="age">Age  </td>
+          <td><input placeholder="Age in years" type="text" id="age" name="age"></td>
+          <td>Should be an integer,e.g., 1,35 etc.</td>
+        </tr>      
+        <tr>
+          <td for="sex">Sex  </td>
+          <td> <input placeholder="Gender male or female" type="text" id="sex" name="sex"></td>
+          <td>1 for Male and 0 for Female</td>
+        </tr>
+        <tr>
+          <td for="chest pain type">Chest pain type  </td>
+          <td><input placeholder="CP value" type="text" id="chest pain type" name="chest pain type"></td>
+          <td>0 for typical angina, 1 for atypical angina, 2 for non-anginal pain and 3 for asymptomatic</td>
+        </tr>
+        <tr>
+          <td for="trestbps">Trestbps </td>
+          <td><input placeholder="Resting blood pressure" type="text" id="trestbps" name="trestbps"></td>
+          <td>Should be an integer,e.g., 110,153 etc.</td>
+        </tr>
+        <tr>
+          <td for="serum cholestoral in mg/dl">Serum cholestoral in mg/dl </td>
+          <td><input placeholder="In mg/dl" type="text" id="serum cholestoral in mg/dl" name="serum cholestoral in mg/dl"></td>
+          <td>Should be an integer,e.g., 228,183 etc.</td>
+        </tr>
+        <tr>
+          <td for="restecg">Restecg </label></td>
+          <td>  <input placeholder="Resting ECG results" type="text" id="restecg" name="restecg"></td>
+          <td>0 for normal, 1 for ST-T wave abnormality and 2 for definite left VH by Estes'</td>
+        </tr>
+        <tr>
+          <td for="thalach">Thalach </td>
+          <td> <input placeholder="Maximum heart rate" type="text" id="thalach" name="thalach"></td>
+          <td>Should be an integer,e.g., 150,172 etc.</td>
+        </tr>
+        <tr>
+          <td for="exang">Exang </td>
+          <td>  <input placeholder="Exercise induced angina" type="text" id="exang" name="exang"></td>
+          <td>0 for No and 1 for Yes</td>
+        </tr>
+        <tr>
+          <td for="oldpeak">Oldpeak </td>
+          <td> <input placeholder="Induced ST depression" type="text" id="oldpeak" name="oldpeak"></td>
+          <td>Should be a rational number,e.g., 2.3,0.5 etc.</td>
+        </tr>
+        <tr>
+          <td for="slope">Slope </td>
+          <td>  <input placeholder="ST segment peak" type="text" id="slope" name="slope"></td>
+          <td> 1 for upsloping, 2 for flat and 3 for downsloping</td>
+        </tr>
+        <tr>
+          <td for="thal">Thal </td>
+          <td> <input placeholder="Normal, Fixed or Rev. Def." type="text" id="thal" name="thal"></td>
+          <td>1,2 or 3</td>
+        </tr>
+      </tbody>
+    </table> 
+    <button class="btn btn-success" type="submit">Submit</button>
+</form>
+
+
+    </div>
+
+
+
+    <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+      <div class="container text-center">
+        <small>Copyright &copy; 2020 created by philsaurabh</small>
+      </div>
+    </footer>
+</body>
+</html>
