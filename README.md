@@ -10,7 +10,11 @@
 
 _**Following are the names of the various model files used:**_
 <ul>
-<li><p><b>Diabetes model = [model](https://github.com/philsaurabh/Predict-Something-ML-Prediction-App/blob/master/model.py) </b></p></li>
+<li><p><b>Diabetes model = 
+ 
+ ![model](https://github.com/philsaurabh/Predict-Something-ML-Prediction-App/blob/master/model.py) 
+ 
+ </b></p></li>
 <li><p><b>Cancer model = [model1](https://github.com/philsaurabh/Predict-Something-ML-Prediction-App/blob/master/model1.py) </b></p></li>
 <li><p><b>Heart model = [model2](https://github.com/philsaurabh/Predict-Something-ML-Prediction-App/blob/master/model2.py) </b></p></li>
 <li><p><b>Iris model = [model3](https://github.com/philsaurabh/Predict-Something-ML-Prediction-App/blob/master/model3.py) </b></p></li>
@@ -21,9 +25,8 @@ _**Following are the names of the various model files used:**_
 
 ## Details of various datasets used for model development : 
 <ul>
-<li><p><b>Diabetes</b> : [diabetes.csv](../blob/master/diabetes.csv) [In the repository]</p></li>
-<li><p><b>Cancer</b> : 
- ![cancer.csv](https://github.com/philsaurabh/Predict-Something-ML-Prediction-App/blob/master/cancer.csv) [In the repository]</p></li>
+<li><p><b>Diabetes</b> : [diabetes.csv](https://github.com/philsaurabh/Predict-Something-ML-Prediction-App/blob/master/diabetes.csv) [In the repository]</p></li>
+<li><p><b>Cancer</b> : [cancer.csv](https://github.com/philsaurabh/Predict-Something-ML-Prediction-App/blob/master/cancer.csv) [In the repository]</p></li>
 <li><p><b>Heart</b> : [heart.csv](https://github.com/philsaurabh/Predict-Something-ML-Prediction-App/blob/master/heart.csv) [In the repository]</p></li>
 <li><p><b>Iris</b> : [iris.csv](https://github.com/philsaurabh/Predict-Something-ML-Prediction-App/blob/master/iris.csv) [In the repository]</p></li>
 <li><p><b>Forest Fire</b> : [Forest_fire.csv](https://github.com/philsaurabh/Predict-Something-ML-Prediction-App/blob/master/Forest_fire.csv) [In the repository]</p></li>
