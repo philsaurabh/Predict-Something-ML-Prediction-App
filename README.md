@@ -21,7 +21,7 @@ _**Following are the names of the various model files used:**_
 
 ## Details of various datasets used for model development : 
 <ul>
-<li><p><b>Diabetes</b> : [diabetes.csv](https://github.com/philsaurabh/Predict-Something-ML-Prediction-App/blob/master/diabetes.csv) [In the repository]</p></li>
+<li><p><b>Diabetes</b> : [diabetes.csv](../blob/master/diabetes.csv) [In the repository]</p></li>
 <li><p><b>Cancer</b> : [cancer.csv](https://github.com/philsaurabh/Predict-Something-ML-Prediction-App/blob/master/cancer.csv) [In the repository]</p></li>
 <li><p><b>Heart</b> : [heart.csv](https://github.com/philsaurabh/Predict-Something-ML-Prediction-App/blob/master/heart.csv) [In the repository]</p></li>
 <li><p><b>Iris</b> : [iris.csv](https://github.com/philsaurabh/Predict-Something-ML-Prediction-App/blob/master/iris.csv) [In the repository]</p></li>
