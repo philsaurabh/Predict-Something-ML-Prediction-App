@@ -7,6 +7,7 @@
 <p>Here, I have developed a prediction web app which using the concept of machine learning makes predictions about various medical prediction like heart abnormality, Cancer, Diabetes and some multiclass predictions like iris, type of glass and forest fire prediction etc.</p>
 
 <hr>
+
 _**Following are the names of the various model files used:**_
 <ul>
 <li><p><b>Diabetes model = model</b></p></li>
@@ -40,6 +41,7 @@ _**Following are the names of the various model files used:**_
 ## Usage:
 <hr>
  <h3> To use this project clone the repository and type the following command: </h3>
+ 
  ```
  python app.py
  ```
