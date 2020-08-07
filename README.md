@@ -61,7 +61,8 @@ _**Details of various datasets used for model development[In the repository]:**_
   
   <p> The whole project is deployed on Heroku Cloud.
   
- <p> Link to access the project live is : https://predictsomethingwebapp.herokuapp.com// <p>
+ <p> Link to access the project live is : https://predictsomethingwebapp.herokuapp.com// </p>
+ <p> Or you can go through launchpad github page : https://philsaurabh.github.io/Predict-Something-ML-Prediction-App/</p>
   <p> Thank you!</p><br/>
   And if you find it helpful, please do ⭐ the repository.
   
