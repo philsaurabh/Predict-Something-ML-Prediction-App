@@ -9,18 +9,20 @@
 <hr>
 
 _**Following are the names of the various model files used:**_
-<ul>
-<li><p><b>Diabetes model = 
- 
- ![model](https://github.com/philsaurabh/Predict-Something-ML-Prediction-App/blob/master/model.py) 
- 
- </b></p></li>
-<li><p><b>Cancer model = [model1](https://github.com/philsaurabh/Predict-Something-ML-Prediction-App/blob/master/model1.py) </b></p></li>
-<li><p><b>Heart model = [model2](https://github.com/philsaurabh/Predict-Something-ML-Prediction-App/blob/master/model2.py) </b></p></li>
-<li><p><b>Iris model = [model3](https://github.com/philsaurabh/Predict-Something-ML-Prediction-App/blob/master/model3.py) </b></p></li>
-<li><p><b>Forest fire model = [model4](https://github.com/philsaurabh/Predict-Something-ML-Prediction-App/blob/master/model4.py)</b></p></li>
-<li><p><b>Glass model = [model5](https://github.com/philsaurabh/Predict-Something-ML-Prediction-App/blob/master/model5.py)</b></p></li>
-</ul>
+<br>
+<br>
+-📕<b>Diabetes model =</b>  [model](https://github.com/philsaurabh/Predict-Something-ML-Prediction-App/blob/master/model.py) 
+<br>
+-📕<b>Cancer model = </b>  [model1](https://github.com/philsaurabh/Predict-Something-ML-Prediction-App/blob/master/model1.py)
+<br>
+-📕<b>Heart model = </b>  [model2](https://github.com/philsaurabh/Predict-Something-ML-Prediction-App/blob/master/model2.py)
+<br>
+-📕<b>Iris model =</b> [model3](https://github.com/philsaurabh/Predict-Something-ML-Prediction-App/blob/master/model3.py) 
+<br>
+-📕<b>Forest fire model =</b> [model4](https://github.com/philsaurabh/Predict-Something-ML-Prediction-App/blob/master/model4.py)
+<br>
+-📕<b>Glass model =</b> [model5](https://github.com/philsaurabh/Predict-Something-ML-Prediction-App/blob/master/model5.py)
+
 <hr>
 
 ## Details of various datasets used for model development : 
