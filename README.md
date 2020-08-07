@@ -1,3 +1,5 @@
+# Predict Something Web Application
+## About the Developer:
 ### Hi there, I'm [Saurabh][website] 👋
 
 ## I'm a Researcher, Developer, Student, and Teacher!
@@ -6,7 +8,10 @@
 - 👯 I’m looking to collaborate with other researchers!
 - 🥅 My Goals: Contribute more to Open Source projects!
 - ⚡ Fun fact: I love to play Tabla!
-- 👯 I’m My gratitude to [Jesse](https://github.com/codeSTACKr) for his beautiful advanced Readme Template!
+- 👯 My gratitude to [Jesse](https://github.com/codeSTACKr) for his beautiful advanced Readme Template!
+- 👯 My gratitude to [Krish Sir](https://github.com/krishnaik06) for his guidance through his youtube channel!
+- 👯 My gratitude to [Anuj](https://github.com/anujvyas?tab=repositories) and [Shobhit](https://github.com/shobhitsrivastava-ds) for their open source contribution which provided me basic guidance and inspiration for this project.
+
 
 ### Connect with me:
 
