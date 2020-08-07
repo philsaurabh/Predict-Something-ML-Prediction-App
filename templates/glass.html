@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Predict Something- Emotions</title>
+  <title>Predict Something- Glass Type</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
@@ -55,7 +55,7 @@
                 <a class="nav-link" href="/iris">Iris</a>
               </li>  
               <li class="nav-item">
-                <a class="nav-link active" href="/emotions">Emotions</a>
+                <a class="nav-link active" href="/glass">Glass</a>
               </li> 
             <li class="nav-item">
               <a class="nav-link" href="/cancer">Cancer</a>
@@ -74,13 +74,70 @@
       </nav>
 </header>
 <div class="container",class="form-group">
-        <h2>Please write your statement: </h2>
-    <h3>It will try to predict your emotion:</h3>
-        <form action="{{ url_for('predict') }}" method="POST">
-            <textarea class='message-box' name="message" rows="10" cols="50" placeholder="Submit Your Statement Here..."></textarea><br/>
-            <button class="btn btn-success" type="submit">Submit</button>
-        </form>
-     
+  <h2>Details from report: </h2>
+<h3>Enter the Following parameters :</h3>
+<form action="/result" method="POST">
+<table class="table table-striped  table-hover table-bordered">
+<thead>
+  <tr>
+    <th>Parameters</th>
+    <th>Values</th>
+    <th>Examples</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td for="ri">Refractive Index  </td>
+    <td><input placeholder="Refractive Index" type="text" id="ri" name="ri"></td>
+    <td>Should be a rational number,e.g., 1.52011,1.5301 etc.</td>
+  </tr>      
+  <tr>
+    <td for="na">Sodium  </td>
+    <td> <input placeholder="Weight Percent" type="text" id="na" name="na"></td>
+    <td>Should be a rational number,e.g., 10.7,17.4 etc.</td>
+  </tr>
+  <tr>
+    <td for="mg">Magnesium  </td>
+    <td><input placeholder="Weight Percent" type="text" id="chest pain type" name="chest pain type"></td>
+    <td>Should be a rational number,e.g., 0,4.49 etc.</td>
+  </tr>
+  <tr>
+    <td for="al">Aluminum </td>
+    <td><input placeholder="Weight Percent" type="text" id="al" name="al"></td>
+    <td>Should be a rational number,e.g., 0.29,3.5 etc.</td>
+  </tr>
+  <tr>
+    <td for="si">Silicon </td>
+    <td><input placeholder="Weight Percent" type="text" id="si" name="si"></td>
+    <td>Should be a rational number,e.g., 69.8, 75.4 etc.</td>
+  </tr>
+  <tr>
+    <td for="k">Potassium </label></td>
+    <td>  <input placeholder="Weight Percent" type="text" id="k" name="k"></td>
+    <td>Should be a rational number,e.g., 0,6.21 etc.</td>
+  </tr>
+  <tr>
+    <td for="ca">Calcium </td>
+    <td> <input placeholder="Weight Percent" type="text" id="ca" name="ca"></td>
+    <td>Should be a rational number,e.g., 5.43,16.2 etc.</td>
+  </tr>
+  <tr>
+    <td for="Ba">Barium </td>
+    <td>  <input placeholder="Weight Percent" type="text" id="ba" name="ba"></td>
+    <td>Should be a rational number,e.g., 0,3.15 etc.</td>
+  </tr>
+  <tr>
+    <td for="fe">Iron </td>
+    <td> <input placeholder="Weight Percent" type="text" id="fe" name="fe"></td>
+    <td>Should be a rational number,e.g., 0,0.51 etc.</td>
+  </tr>
+  
+</tbody>
+</table> 
+<button class="btn btn-success" type="submit">Submit</button>
+</form>
+
+
 </div>
 
 

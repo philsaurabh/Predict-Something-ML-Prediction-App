@@ -11,7 +11,7 @@ mapping_target = {'Setosa':0, 'Versicolor':1, 'Virginica':2}
 data = data.replace({'variety':mapping_target})
 y=data[["variety"]]
 
-print(y)
+
 X=np.array(X)
 y=np.array(y)
 
