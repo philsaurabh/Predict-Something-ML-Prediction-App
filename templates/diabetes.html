@@ -88,42 +88,42 @@
         <tbody>
           <tr>
             <td for="Pregnancies">Pregnancies  </td>
-            <td><input  placeholder="Number of times preg." type="text" id="Pregnancies" name="Pregnancies"  required></td>
+            <td><input  placeholder="Number of times preg." type="text" id="Pregnancies" name="Pregnancies" pattern="0|[1-9]\d*" required></td>
             <td>Should be an integer,e.g., 1,3 etc.</td>
           </tr>      
           <tr>
             <td for="Glucose">Glucose  </td>
-            <td> <input placeholder= "Plasma glucose" type="text" id="Glucose" name="Glucose"  required></td>
+            <td> <input placeholder= "Plasma glucose" type="text" id="Glucose" name="Glucose" pattern="0|[1-9]\d*" required></td>
             <td>Should be an integer,e.g., 78,148 etc.</td>
           </tr>
           <tr>
             <td for="BloodPressure">BloodPressure  </td>
-            <td><input placeholder= "In mm Hg"type="text" id="BloodPressure" name="BloodPressure"  required></td>
+            <td><input placeholder= "In mm Hg"type="text" id="BloodPressure" name="BloodPressure" pattern="0|[1-9]\d*"  required></td>
             <td>Should be an integer,e.g., 72,110 etc.</td>
           </tr>
           <tr>
             <td for="SkinThickness">SkinThickness  </td>
-            <td><input placeholder= "In mm" type="text" id="SkinThickness" name="SkinThickness"  required></td>
+            <td><input placeholder= "In mm" type="text" id="SkinThickness" name="SkinThickness" pattern="0|[1-9]\d*"  required></td>
             <td>Should be an integer,e.g., 0,35 etc.</td>
           </tr>
           <tr>
             <td for="Insulin">Insulin  </td>
-            <td><input placeholder="mu U/ml" type="text" id="Insulin" name="Insulin"  required></td>
+            <td><input placeholder="mu U/ml" type="text" id="Insulin" name="Insulin" pattern="0|[1-9]\d*" required></td>
             <td>Should be an integer,e.g., 0,158 etc.</td>
           </tr>
           <tr>
             <td for="BMI">BMI </td>
-            <td> <input placeholder="In kg/(height in m)^2" type="text" id="BMI" name="BMI"  required></td>
+            <td> <input placeholder="In kg/(height in m)^2" type="text" id="BMI" name="BMI" pattern="[+-]?([0-9]*[.])?[0-9]+" required></td>
             <td>Should be a rational number,e.g., 31,35.3 etc.</td>
           </tr>
           <tr>
             <td for="DiabetesPedigreeFunction">DiabetesPedigreeFunction </td>
-            <td> <input placeholder="DPF value" type="text" id="DiabetesPedigreeFunction" name="DiabetesPedigreeFunction"  required></td>
+            <td> <input placeholder="DPF value" type="text" id="DiabetesPedigreeFunction" name="DiabetesPedigreeFunction" pattern="[+-]?([0-9]*[.])?[0-9]+" required></td>
             <td>Should be a rational number,e.g., 0.629,1.39 etc.</td>
           </tr>
           <tr>
             <td for="Age">Age  </td>
-            <td> <input  placeholder="Age in years" type="text" id="Age" name="Age"  required></td>
+            <td> <input  placeholder="Age in years" type="text" id="Age" name="Age" pattern="0|[1-9]\d*" required></td>
             <td>Should be an integer,e.g., 1,53 etc.</td>
           </tr>
         </tbody>
@@ -134,7 +134,7 @@
 </div>
 
 
-
+<p class="text-center"> Uploaded with ❤️ on <a href="https://github.com/philsaurabh/Predict-Something-ML-Prediction-App">Github</a></p>
 <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
   <div class="container text-center">
     <small>Copyright &copy; 2020 created by philsaurabh</small>
