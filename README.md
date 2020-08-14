@@ -64,5 +64,10 @@ _**Details of various datasets used for model development[In the repository]:**_
  <p> Link to access the project live is : https://predictsomethingwebapp.herokuapp.com// </p>
  <p> Or you can go through launchpad github page : https://philsaurabh.github.io/Predict-Something-ML-Prediction-App/</p>
   <p> Thank you!</p><br/>
-  And if you find it helpful, please do ⭐ the repository.
+ •  And if you found it helpful, please do ⭐ the repository.
+ 
+ •  Here is the demo of the app:
+  
+  ![GIF](https://github.com/philsaurabh/Predict-Something-ML-Prediction-App/blob/master/templates/static/img/demo.gif)
+  
   
