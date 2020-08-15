@@ -68,6 +68,6 @@ _**Details of various datasets used for model development[In the repository]:**_
  
  •  Here is the demo of the app:
   
-  ![GIF](https://github.com/philsaurabh/Predict-Something-ML-Prediction-App/blob/master/templates/static/img/demo.gif)
+  ![GIF](https://github.com/philsaurabh/Predict-Something-ML-Prediction-App/blob/master/templates/static/img/demonstration.gif)
   
   
