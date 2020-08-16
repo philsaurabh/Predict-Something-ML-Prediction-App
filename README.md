@@ -2,7 +2,6 @@
 
 - 👯 My gratitude to [Krish Sir](https://github.com/krishnaik06) for his guidance through his youtube channel!
 - 👯 My gratitude to [Anuj](https://github.com/anujvyas?tab=repositories), Nachiketa Hebbar and [Shobhit](https://github.com/shobhitsrivastava-ds) for their open source contribution which provided me basic guidance and inspiration for this project.
-- 👯 My gratitude to [Jesse](https://github.com/codeSTACKr) for his beautiful advanced Readme Template!
 <p> This is just a effort to deploy a machine learning project using flak and heroku.</p>
 <p>Here, I have developed a prediction web app which using the concept of machine learning makes predictions about various medical prediction like heart abnormality, Cancer, Diabetes and some multiclass predictions like iris, type of glass and forest fire prediction etc.</p>
 
