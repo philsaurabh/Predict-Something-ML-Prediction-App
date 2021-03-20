@@ -16,7 +16,7 @@ imbalanced-learn==0.7.0
 imblearn==0.0
 isort==4.3.21
 itsdangerous==1.1.0
-Jinja2==2.11.2
+Jinja2==2.11.3
 joblib==0.13.0
 Js2Py==0.70
 lazy-object-proxy==1.4.3
