@@ -48,7 +48,7 @@ six==1.15.0
 sklearn==0.0
 soupsieve==2.0.1
 SpeechRecognition==3.8.1
-tensorflow==2.4.0
+tensorflow==2.5.0
 threadpoolctl==2.1.0
 toml==0.10.1
 typed-ast==1.4.1
